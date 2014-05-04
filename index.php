@@ -67,6 +67,10 @@ Content?
 </div>
 
 </div>
+<div id="footer">
+&copy; the respective people.
+
+</div>
 
 </body>
 </html>
