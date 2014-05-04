@@ -56,7 +56,7 @@ $getstr = substr($getstr,0,-1);
 <div id="slide3">
 <div id="slide3text">
 <h1>Sewing</h1>
-<h2>Notes and photos of needlwork projects</h2>
+<h2>Notes and photos of needlework projects</h2>
 </div>
 <img src="images/Sika_deer_japanese_deer.jpg" alt="deepics" /></div>
 
