@@ -13,6 +13,8 @@ $getstr = substr($getstr,0,-1);
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="stylesheet" type="text/css" href="style.php<?echo($getstr);?>" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="jquery.anyslider.min.js"></script>
 </head>
 <body>
 
@@ -36,15 +38,36 @@ $getstr = substr($getstr,0,-1);
 </div>
 
 <div id="slider">
-<div id="slidertext">
-<h1>Some slider</h1>
-<h2>Under text thing</h2>
+
+<div id="slide1">
+<div id="slide1text">
+<h1>Hallo</h1>
+<h2>Notes and documentation for my IRC bot</h2>
 </div>
-<img src="images/<?
-$deerpics = array('red-deer-16.jpg','deer-rut.jpg','Sika_deer_japanese_deer.jpg','animals-deer-wildlife-994635-5616x3744.jpg');
-$randdeer = $deerpics[mt_rand(0,count($deerpics)-1)];
-echo($randdeer);
-?>" alt="deerpics" /></div>
+<img src="images/red-deer-16.jpg" alt="deerpics" /></div>
+
+<div id="slide2">
+<div id="slide2text">
+<h1>Some slider 2</h1>
+<h2>Second undertext</h2>
+</div>
+<img src="images/deer-rut.jpg" alt="deerpics" /></div>
+
+<div id="slide3">
+<div id="slide3text">
+<h1>Some slider third</h1>
+<h2>Third undertext</h2>
+</div>
+<img src="images/Sika_deer_japanese_deer.jpg" alt="deepics" /></div>
+
+<div id="slide4">
+<div id="slide4text">
+<h1>Some slider the forth</h1>
+<h2>The final undertext</h2>
+</div>
+<img src="images/animals-deer-wildlife-994635-5616x3744.jpg" alt="deerpics" /></div>
+
+</div>
 
 <div id="content" >
 Content content<br />
@@ -71,6 +94,13 @@ Content?
 &copy; the respective people.
 
 </div>
+
+<script>
+$("#slider").AnySlider({
+	bullets: false,
+	showControls: false
+});
+</script>
 
 </body>
 </html>

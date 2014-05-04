@@ -91,6 +91,13 @@ border-top: 2px solid #777;
 }
 
 #slider {
+	-ms-touch-action: none;
+	overflow: auto;
+	position: relative;
+	touch-action: none;
+}
+
+#slide1, #slide2, #slide3, #slide4 {
 position: relative;
 width: 100%;
 background-color: #FFE5E9;
@@ -98,27 +105,27 @@ margin-top: 20px;
 margin-bottom: 40px;
 padding: 0px;
 }
-#slider img {
+#slide1 img, #slide2 img, #slide3 img, #slide4 img {
 margin: 0px;
 padding: 0px;
 width: 100%;
 vertical-align: top;
 }
-#slider #slidertext {
+#slide1text, #slide2text, #slide3text, #slide4text {
 position: absolute;
 margin: 0px;
 bottom: 30px;
 right: 50px;
 align: right;
 }
-#slider h1 {
+#slide1text h1, #slide2text h1, #slide3text h1, #slide4text h1 {
 font-style: italic;
 color: #FFFFFF;
 padding: 0px;
 margin: 0px;
 font-weight: 400;
 }
-#slider h2 {
+#slide1text h2, #slide2text h2, #slide3text h2, #slide4text h2 {
 color: #FFFFFF;
 padding: 0px;
 margin: 0px;
@@ -160,6 +167,4 @@ max-width: 100%;
 margin-top: 20px;
 padding: 10px;
 padding-left: 30px;
-
-
 }
