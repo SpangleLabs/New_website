@@ -41,29 +41,29 @@ $getstr = substr($getstr,0,-1);
 
 <div id="slide1">
 <div id="slide1text">
-<h1>Hallo</h1>
-<h2>Notes and documentation for my IRC bot</h2>
+<h1>Programming projects</h1>
+<h2>Misc projects and notes</h2>
 </div>
 <img src="images/red-deer-16.jpg" alt="deerpics" /></div>
 
 <div id="slide2">
 <div id="slide2text">
-<h1>Some slider 2</h1>
-<h2>Second undertext</h2>
+<h1>Hallo documentation</h1>
+<h2>Docs and notes for my IRC bot</h2>
 </div>
 <img src="images/deer-rut.jpg" alt="deerpics" /></div>
 
 <div id="slide3">
 <div id="slide3text">
-<h1>Some slider third</h1>
-<h2>Third undertext</h2>
+<h1>Sewing</h1>
+<h2>Notes and photos of needlwork projects</h2>
 </div>
 <img src="images/Sika_deer_japanese_deer.jpg" alt="deepics" /></div>
 
 <div id="slide4">
 <div id="slide4text">
-<h1>Some slider the forth</h1>
-<h2>The final undertext</h2>
+<h1>Baking</h1>
+<h2>Stories from my efforts to bake</h2>
 </div>
 <img src="images/animals-deer-wildlife-994635-5616x3744.jpg" alt="deerpics" /></div>
 
