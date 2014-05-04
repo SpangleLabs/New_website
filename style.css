@@ -114,9 +114,22 @@ vertical-align: top;
 #slide1text, #slide2text, #slide3text, #slide4text {
 position: absolute;
 margin: 0px;
-bottom: 30px;
-right: 50px;
-align: right;
+}
+#slide1text {
+top: 30px;
+left: 20%;
+}
+#slide2text {
+left: 40%;
+bottom: 20px;
+}
+#slide3text {
+top: 40%;
+left: 40%;
+}
+#slide4text {
+top: 50px;
+right: 20%;
 }
 #slide1text h1, #slide2text h1, #slide3text h1, #slide4text h1 {
 font-style: italic;

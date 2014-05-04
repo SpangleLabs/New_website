@@ -48,7 +48,7 @@ $getstr = substr($getstr,0,-1);
 
 <div id="slide2">
 <div id="slide2text">
-<h1>Hallo documentation</h1>
+<h1>Hallo docs</h1>
 <h2>Docs and notes for my IRC bot</h2>
 </div>
 <img src="images/deer-rut.jpg" alt="deerpics" /></div>
